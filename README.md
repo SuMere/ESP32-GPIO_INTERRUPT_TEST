@@ -13,3 +13,8 @@ This test code shows how to configure gpio and how to use gpio interrupt.
  * Connect GPIO18 with GPIO39
  * Connect GPIO19 with GPIO36
  * Generate pulses on GPIO18/19, that triggers interrupt on GPIO39/36
+ 
+## Deep sleep:
+ 
+ Wake is triggered automatically switching trigger pin on each boot (GPIO36/39).
+ It is detectable by the increment of the printed variable [BOOT COUNT <bootCount>].
