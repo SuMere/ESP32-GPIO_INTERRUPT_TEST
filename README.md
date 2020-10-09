@@ -17,4 +17,4 @@ This test code shows how to configure gpio and how to use gpio interrupt.
 ## Deep sleep:
  
  Wake is triggered automatically switching trigger pin on each boot (GPIO36/39).
- It is detectable by the increment of the printed variable [BOOT COUNT <bootCount>].
+ It is detectable by the increment of the printed variable [BOOT COUNT "bootCount"].
